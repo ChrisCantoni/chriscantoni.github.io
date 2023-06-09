@@ -1,5 +1,9 @@
 body {
-  background-color: rgb(72, 169, 166);
+background:
+linear-gradient(135deg, #48A9A6 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #48A9A6 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-size: 64px 128px;
+background-color: rgb(72, 169, 166);
     color:white;
   font-family: Merriweather, Arial, Helvetica, Sans-serif;
   margin: 10%;
@@ -16,6 +20,7 @@ body {
   margin-bottom: 5px;
   
 }
+
 
 .header img{
   width: 100px;
@@ -70,3 +75,5 @@ img:hover {
   padding-bottom: 10px;
   border-color: rgb(66, 129, 164)
 }
+
+
